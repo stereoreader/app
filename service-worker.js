@@ -1,13 +1,7 @@
 const CACHE_NAME = "pwa-cache-v1";
 
-// Cache only core files (index.html, manifest, icons)
 // JS/CSS will be cached dynamically on request
 const CORE_FILES = [
-  "./",
-  "./index.html",
-  "./manifest.json",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
