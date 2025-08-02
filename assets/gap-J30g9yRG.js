@@ -1,1 +1,0 @@
-import{m as n,s as e}from"./index-XKapc8S7.js";const m=n({title:"расстояние <число>",description:"Установить расстояние между столбцами",match(t){const a=t.match(/расстояние (\d+)/);if(a){const s=parseInt(a[1]);if(!isNaN(s))return s}},async action(t){e.gap=t}});export{m as default};
