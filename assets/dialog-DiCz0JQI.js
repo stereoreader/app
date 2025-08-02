@@ -1,1 +1,0 @@
-import{m as a,c as i,i as t,I as r}from"./index-Cb2_P73k.js";const l=a({title:"закрыть",description:"закрыть диалог, панель настроек, файл (в такой последовательности, если открыто)",match(e){if(e.trim()==="закрыть")return!0},action(){i()||t.value&&((t.value=!1)||!0)||(r.current=null)}});export{l as default};

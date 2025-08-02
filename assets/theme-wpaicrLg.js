@@ -1,1 +1,0 @@
-import{m as e,d as o}from"./index-Cb2_P73k.js";const a=e({description:"Переключить цветовую тему",text:["тёмная тема","светлая тема"],async action(t){debugger;t=="тёмная тема"?(o.backgroundColor="#000000",o.textColor="#FFFFFF"):t==="светлая тема"&&(o.backgroundColor="#FFFFFF",o.textColor="#000000")}});export{a as default};
