@@ -1,0 +1,1 @@
+import{m as e,s as o}from"./index-Cb2_P73k.js";const n=e({title:"шрифт <число>",description:"Установить размер шрифта",match(t){const a=t.match(/шрифт ([\d,]+)/);if(a){const s=parseFloat(a[1].replace(",","."));if(!isNaN(s))return s}},async action(t){o.fontSize=t}});export{n as default};

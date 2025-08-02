@@ -1,1 +1,0 @@
-import{m as i,s as n}from"./index-Bi4I8nhG.js";const m=i({title:"ширина <число>",description:"Установить ширину экрана в процентах",match(t){const s=t.match(/ширина (\d+)/);if(s){const a=parseInt(s[1]);if(!isNaN(a))return a}},async action(t){n.width=t}});export{m as default};

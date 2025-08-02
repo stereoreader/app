@@ -1,0 +1,1 @@
+import{m as a,b as o,t as m}from"./index-Cb2_P73k.js";const r=a({title:"память один | память два | память три",description:"Активировать слот памяти с настройками",match(t){const e=t.match(/память (\d+|один|два|три)/);if(e){const s=m(e[1]);if([1,2,3].includes(s))return s}},action(t){o.value=t-1}});export{r as default};
