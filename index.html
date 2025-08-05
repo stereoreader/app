@@ -13,7 +13,7 @@
     <!-- Icons -->
     <link rel="icon" href="icons/icon-192.png">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
-  <script type="module" crossorigin src="/app/assets/index-CSsPsg5F.js"></script>
+  <script type="module" crossorigin src="/app/assets/index-Dg-UAwiR.js"></script>
   <link rel="stylesheet" crossorigin href="/app/assets/index-CM8rOAC_.css">
 </head>
 <!-- Google tag (gtag.js) -->
@@ -25,9 +25,17 @@
 
     gtag('config', 'G-CWXQF8PH4S');
 </script>
+
 <body>
     <div id="app"></div>
-    <script src="sw-register.js"></script>
+    <script>
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if (!isSafari) {
+            const script = document.createElement('script');
+            script.src = 'sw-register.js';
+            document.body.appendChild(script);
+        }
+    </script>
 </body>
 
 </html>
