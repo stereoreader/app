@@ -1,4 +1,4 @@
-import{I as i,t as a,C as h,h as c}from"./index-BTgA3Xad.js";class u extends h{constructor(e){super(e)}calcRow(e,t,n){return t.push({offset:e,height:10,lines:[{idx:0,chunkPos:0,chunk:this,text:""}],lineHeight:10}),10}component({lines:e,width:t,columnIdx:n},o){const s={};return s.style=`
+import{I as i,t as a,C as h,h as c}from"./index-Dam73RXz.js";class u extends h{constructor(e){super(e)}calcRow(e,t,n){return t.push({offset:e,height:10,lines:[{idx:0,chunkPos:0,chunk:this,text:""}],lineHeight:10}),10}component({lines:e,width:t,columnIdx:n},o){const s={};return s.style=`
             user-select: none;
             display: block;
             position: absolute;
