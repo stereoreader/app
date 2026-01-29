@@ -1,6 +1,6 @@
 {
-  "name": "СТЕРЕО ЧТЕНИЕ",
-  "short_name": "СТЕРЕО ЧТЕНИЕ",
+  "name": "STEREO READER",
+  "short_name": "STEREO READER",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
