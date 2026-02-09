@@ -1,0 +1,1 @@
+const e={width:"ширина",gap:"расстояние",wheelup:"колесо вверх",wheeldown:"колесо вниз","stereo reader":"СТЕРЕО ЧТЕНИЕ","install app":"установить приложение",share:"Поделиться","share.text":"Исправляем близорукость с помощью стерео чтения"};export{e as default};
