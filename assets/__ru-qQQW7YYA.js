@@ -1,0 +1,1 @@
+const e={"<number>":"<число>","<show>":"<показать>","<on>":"<включить>",open:"открыть",show:"показать",close:"закрыть",hide:"скрыть","Dialogs and screen":"Диалоги и экран",screen:"экран","Exit full screen":"Выйти из полноэкранного режима",minimize:"свернуть",status:"статус",up:"вверх",down:"вниз"};export{e as default};
