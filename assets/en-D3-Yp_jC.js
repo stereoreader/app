@@ -1,1 +1,0 @@
-const t={"share.text":"Fix your myopia with stereo reading","add-file.cannot-unpack":"Cannot unpack and load file from archive","status-bar.top":"Top","status-bar.bottom":"Bottom"};export{t as default};
