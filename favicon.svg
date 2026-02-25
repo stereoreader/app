@@ -1,0 +1,53 @@
+<svg width="256" height="160" viewBox="0 0 256 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Left oval gradient -->
+        <linearGradient id="leftGrad" x1="24" y1="80" x2="184" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#1E88E5"/>
+            <stop offset="100%" stop-color="#42A5F5"/>
+        </linearGradient>
+
+        <!-- Right oval gradient -->
+        <linearGradient id="rightGrad" x1="72" y1="80" x2="232" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#26C6DA"/>
+            <stop offset="100%" stop-color="#4DD0E1"/>
+        </linearGradient>
+
+        <!-- Inner circle gradient -->
+        <linearGradient id="circleGrad" x1="100" y1="80" x2="156" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#1565C0"/>
+            <stop offset="100%" stop-color="#1E88E5"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Left oval -->
+    <ellipse
+        cx="108"
+        cy="80"
+        rx="76"
+        ry="50"
+        stroke="url(#leftGrad)"
+        stroke-width="10"
+        fill="none"
+    />
+
+    <!-- Right oval -->
+    <ellipse
+        cx="148"
+        cy="80"
+        rx="76"
+        ry="50"
+        stroke="url(#rightGrad)"
+        stroke-width="10"
+        fill="none"
+    />
+
+    <!-- Inner circle -->
+    <circle
+        cx="128"
+        cy="80"
+        r="28"
+        stroke="url(#circleGrad)"
+        stroke-width="8"
+        fill="none"
+    />
+</svg>
