@@ -15,11 +15,26 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CWXQF8PH4S"></script>
 <script>
+    function detectAppContext() {
+        const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+        const isIOSStandalone = window.navigator.standalone === true;
+
+        if (isStandalone || isIOSStandalone) {
+            return 'app_pwa';
+        }
+
+        return 'app_browser';
+    }
+
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
+
     gtag('js', new Date());
 
-    gtag('config', 'G-CWXQF8PH4S');
+    gtag('config', 'G-CWXQF8PH4S', {
+        app_context: detectAppContext(),
+        product_surface: 'app'
+    });
 </script>
 
 <body>
