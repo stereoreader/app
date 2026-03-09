@@ -1,4 +1,4 @@
-import{I as i,f as o,e as l,C as u,g as h}from"./App-Da5F8cm7.js";import{t as c,h as f}from"./index-CJhj1Iw0.js";class m extends u{async onClick(t){}childVNodes=(t,s)=>this.$item.thumbnailUrl?[f("div",{innerHTML:"&nbsp;",style:`
+import{I as i,f as o,d as l,C as u,s as h}from"./App-DOHGLXnX.js";import{t as c,h as f}from"./index-DS6jlbkX.js";class m extends u{async onClick(t){}childVNodes=(t,s)=>this.$item.thumbnailUrl?[f("div",{innerHTML:"&nbsp;",style:`
                 background:url(${this.$item.thumbnailUrl}) no-repeat top right;
                 background-size: auto 100%;
                 position:absolute;
